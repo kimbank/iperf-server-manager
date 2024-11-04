@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  iperf3-server:
+    build:
+      context: .
+    ports:
+      - "5000:5000"  # Flask Web UI Port
+      - "5201:5201"  # iperf3 Server Port
+    volumes:
+      - ./config:/usr/src/app/config
+    restart: always

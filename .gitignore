@@ -1,0 +1,80 @@
+# General OS-specific ignores
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS folder attributes
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*.pyo
+*.so
+
+# Pytest cache
+.pytest_cache/
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS related
+.DS_Store
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+.env.docker
+docker-compose.override.yml
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Temporary files
+*.swp
+*.swo
+*~
